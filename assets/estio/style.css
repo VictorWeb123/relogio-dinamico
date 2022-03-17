@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+     font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, yellow, orange, rgb(224, 157, 31));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 500px;
+    background: transparent;
+    border-radius: 4px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.37);
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(10deg, rgb(236, 213, 213), rgb(54, 50, 50), rgb(163, 151, 151));
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 1px 15px #000;
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.relogio span.tempo {
+    font-size: 10px;
+}
